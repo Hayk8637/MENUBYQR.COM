@@ -1,0 +1,37 @@
+.menuCategoryNavigation {
+    width: 100%;
+    max-width: 400px; 
+    overflow-x: auto; 
+    white-space: nowrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 64.8px;
+    z-index: 1;
+    margin: auto;
+}
+
+.menuCategoryNavigation > .a, 
+.menuCategoryNavigation > .activeTab {
+    display: inline-block; 
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #B3B3B3;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.menuCategoryNavigation > .a {
+    border: 1px solid #B3B3B3;
+    margin-left: 10px;
+
+}
+
+.menuCategoryNavigation > .activeTab {
+    color: #FFFFFF;
+    background-color: #FF8E25;
+    border: none;
+
+}
